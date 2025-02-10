@@ -71,3 +71,25 @@ Once loaded you can access the table as per eloquent syntax, for example:
 Model::get(id)
 ```
 To learn more about using eloquent, refer the Laravel's Eloquent [user guide](https://laravel.com/docs/9/eloquent)
+
+## Dockerize Codeigniter App With docker-compose
+
+## Test Running Application
+
+```sh
+## runing with docker compose
+docker-compose -f docker-compose.yml up --build
+# or run in background process 
+docker-compose -f docker-compose.yml up --build -d
+# or rebuild
+docker-compose up --build --force-recreate --no-deps
+```
+```sh
+app running in port 80 ---> cek in browser
+```
+```sh
+phpmyadmin running in port 8282 ---> cek in browser
+```
+```sh
+login with username `root` and password `password`
+```
