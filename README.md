@@ -1,7 +1,7 @@
 # Codeigniter Starter Kit
 
-[![Codeigniter](https://img.shields.io/badge/Codeigniter-v3.1.11-orange.svg)](http://codeigniter.com/)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fb7b15d17a3342c2a5ebd6228272c234)](https://www.codacy.com/manual/yoga-dev/Codeigniter-Starter-Kit)
+[![Codeigniter](https://img.shields.io/badge/Codeigniter-v3.1.13-dev-orange.svg)](http://codeigniter.com/)
+
 [![StyleCI](https://github.styleci.io/repos/213558653/shield?branch=master)](https://github.styleci.io/repos/213558653)
 
 ## Prerequisities
