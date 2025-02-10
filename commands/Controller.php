@@ -36,15 +36,15 @@ class Controller extends Command
     protected function createController()
     {
         $html = '
-<?php 
-defined(\'BASEPATH\') OR exit(\'No direct script access allowed\');
-class '.$this->name.' extends '.$this->parent.' {
+			<?php 
+			defined(\'BASEPATH\') OR exit(\'No direct script access allowed\');
+			class '.$this->name.' extends '.$this->parent.' {
 
-	public function index()
-	{
-		# Add code 
-	}
-}';
+				public function index()
+				{
+					# Add code 
+				}
+			}';
 
         return file_put_contents('application/controllers/'.$this->name.'.php', trim($html));
     }
