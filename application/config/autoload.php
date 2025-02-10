@@ -58,7 +58,8 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array();
+//$autoload['libraries'] = array();
+$autoload['libraries'] = array('database','session','recursos','form_validation','encrypt');
 
 /*
 | -------------------------------------------------------------------
@@ -89,8 +90,8 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array();
-
+//$autoload['helper'] = array();
+$autoload['helper'] = array('url','html','form','file');
 /*
 | -------------------------------------------------------------------
 |  Auto-load Config files
@@ -132,4 +133,5 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array();
+//$autoload['model'] = array();
+$autoload['model'] = array('tipoImovel_model','finalidade_model','descricaoImovel_model','imoveis_model','imovelDescricao_model','estados_model', 'cidades_model','usuarios_model','condominios_model','imovelImagens_model');

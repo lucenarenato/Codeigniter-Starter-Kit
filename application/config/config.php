@@ -78,7 +78,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'english';
+$config['language']	= 'pt-br'; //$config['language']	= 'english';
 
 /*
 |--------------------------------------------------------------------------
@@ -184,6 +184,7 @@ $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 | use segment based URLs.
 |
 */
+$config['allow_get_array']		= TRUE;
 $config['enable_query_strings'] = FALSE;
 $config['controller_trigger'] = 'c';
 $config['function_trigger'] = 'm';
@@ -326,7 +327,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/userguide3/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'CodeIgniterIMOVEIS2025';
 
 /*
 |--------------------------------------------------------------------------
@@ -391,6 +392,9 @@ $config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;
+$config['sess_table_name']		= 'ci_sessions';
+$config['sess_match_useragent']	= TRUE;
+$config['sess_time_to_update']	= 300;
 
 /*
 |--------------------------------------------------------------------------
